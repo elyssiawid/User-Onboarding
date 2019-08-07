@@ -62,6 +62,6 @@ const Form = ({ errors, touched, values, handleSubmit, status }) => {
         })
         .catch(err => console.log(err.response));
     }
-  })(AnimalForm);
+  })(Form);
 
 export default Form;
