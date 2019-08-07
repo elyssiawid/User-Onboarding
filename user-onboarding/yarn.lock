@@ -1185,6 +1185,7 @@
     cosmiconfig "^5.2.0"
     merge-deep "^3.0.2"
     svgo "^1.2.1"
+  
 
 "@svgr/webpack@4.1.0":
   version "4.1.0"
@@ -1199,6 +1200,7 @@
     "@svgr/plugin-jsx" "^4.1.0"
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
+    query: {presets: ['es2015', 'react'] }
 
 "@types/babel__core@^7.1.0":
   version "7.1.1"
